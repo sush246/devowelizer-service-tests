@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.casumo.devowelizer.DevowelizerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 35.108 s <<< FAILURE! - in com.casumo.devowelizer.DevowelizerServiceTest
+testDevowelize(com.casumo.devowelizer.DevowelizerServiceTest)  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at com.casumo.devowelizer.DevowelizerServiceTest.testDevowelize(DevowelizerServiceTest.java:60)
+
+testDevowelize(com.casumo.devowelizer.DevowelizerServiceTest)  Time elapsed: 2.521 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: ""
+  Actual: AEIOU
+
+	at com.casumo.devowelizer.DevowelizerServiceTest.testDevowelize(DevowelizerServiceTest.java:61)
+
+testDevowelize(com.casumo.devowelizer.DevowelizerServiceTest)  Time elapsed: 0.026 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: ""
+  Actual: Send GET to /:input
+
+	at com.casumo.devowelizer.DevowelizerServiceTest.testDevowelize(DevowelizerServiceTest.java:61)
+
+testDevowelize(com.casumo.devowelizer.DevowelizerServiceTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at com.casumo.devowelizer.DevowelizerServiceTest.testDevowelize(DevowelizerServiceTest.java:60)
+
+testDevowelize(com.casumo.devowelizer.DevowelizerServiceTest)  Time elapsed: 0.017 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at com.casumo.devowelizer.DevowelizerServiceTest.testDevowelize(DevowelizerServiceTest.java:60)
+
+testDevowelize(com.casumo.devowelizer.DevowelizerServiceTest)  Time elapsed: 5.012 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: "hllWRLD"
+  Actual: hllWORLD
+
+	at com.casumo.devowelizer.DevowelizerServiceTest.testDevowelize(DevowelizerServiceTest.java:61)
+
